@@ -11,7 +11,10 @@ dependencies:
   - matplotlib=3.1.0=py36h5429711_0
   - netcdf4=1.4.2=py36h808af73_0
   - numpy=1.16.4=py36h7e9f1db_0
+  - pandas=0.25.0=py36he6710b0_0
+  - xlrd=1.2.0=py36_0
   - pip
   - pip:
-    - git+https://github.com/bjornaa/roppy.git@0aac255c20664621c65699ba716c70812637334d#egg=roppy        
+    - git+https://github.com/bjornaa/roppy.git@0aac255c20664621c65699ba716c70812637334d#egg=roppy       
+    - git+https://github.com/metno/pyromsobs.git 
 
